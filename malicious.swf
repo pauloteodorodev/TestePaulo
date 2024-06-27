@@ -1,0 +1,4 @@
+// ActionScript code for a simple alert
+import flash.external.ExternalInterface;
+
+ExternalInterface.call("alert", "Hello, World!");
